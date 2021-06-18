@@ -56,6 +56,7 @@ class Email extends Model
     		'text'=>$body
     	);
 
+    	//faker php deu conflito com a forma com a declaração de model, então utilizei o rand para realizar a //simulação
         return rand(0, 1);
     }
 }
